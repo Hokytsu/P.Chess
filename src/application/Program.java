@@ -1,10 +1,13 @@
 package application;
 
+import chess.Partida;
+
 public class Program {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		Partida partida = new Partida();
+		UI.printBoard(partida.getPieces());
 	}
 
 }
